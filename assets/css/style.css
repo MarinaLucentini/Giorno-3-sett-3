@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Whisper&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+body {
+  font: "Poppins", sans-serif;
+  color: #9966cc;
+}
+header {
+  width: 100%;
+  height: 100px;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+#form,
+.taskArea {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  margin: 2em;
+  box-shadow: 2px 5px 5px gray;
+}
+.btn-class {
+  background-color: #9966cc;
+  border-radius: 3px;
+
+  margin-block: 1em;
+}
+
+.p-class {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  background-color: #9966cc;
+  display: inline-block;
+  text-align: center;
+  margin: 0.5em;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.stile-lista {
+  list-style-type: square;
+  text-indent: -2em;
+}
+.task input {
+  border-radius: 3px;
+  border: 1px solid #9966cc;
+  margin: 0.3em;
+  display: block;
+  margin-inline: auto;
+}
+#description {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  background-color: #9966cc;
+  margin: 1em;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+}

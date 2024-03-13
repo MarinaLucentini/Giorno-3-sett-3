@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task list</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header><h1>Weekly to do list</h1></header>
+    <main>
+      <p id="description">
+        Sappiamo quanto possa risultare frenetica una settimana con questa
+        semplice applicazione potrai creare delle liste di cose da fare se anche
+        tu come me hai la memoria di un pesciolino rosso!
+      </p>
+      <div id="form">
+        <div class="task">
+          <p class="p-class">Inserisci il giorno della settimana</p>
+          <label for="week-task"></label>
+          <input type="text" id="week-task" />
+        </div>
+        <div class="task">
+          <p class="p-class">Inserisci la task</p>
+          <label for="element-task"></label>
+          <input type="text" id="element-task" />
+        </div>
+        <button id="btn-add" , class="btn-class">Aggiungi alla lista</button>
+      </div>
+      <div id="area-task"></div>
+    </main>
+    <script src="java/java.js"></script>
+  </body>
+</html>
