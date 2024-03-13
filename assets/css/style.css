@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 body {
   font: "Poppins", sans-serif;
-  color: #9966cc;
+  color: #d2a5ff;
 }
 header {
   width: 100%;
@@ -24,16 +24,16 @@ main {
   box-shadow: 2px 5px 5px gray;
 }
 .btn-class {
-  background-color: #9966cc;
+  background-color: #d2a5ff;
   border-radius: 3px;
-
+  display: inline-block;
   margin-block: 1em;
 }
 
 .p-class {
   font-family: "Dancing Script", cursive;
   color: black;
-  background-color: #9966cc;
+  background-color: #d2a5ff;
   display: inline-block;
   text-align: center;
   margin: 0.5em;
@@ -42,19 +42,23 @@ main {
 }
 .stile-lista {
   list-style-type: square;
-  text-indent: -2em;
+  text-indent: -11em;
+  padding-inline: 5em;
 }
 .task input {
   border-radius: 3px;
-  border: 1px solid #9966cc;
+  border: 1px solid #d2a5ff;
   margin: 0.3em;
   display: block;
   margin-inline: auto;
 }
+.testo-lista {
+  color: black;
+}
 #description {
   font-family: "Dancing Script", cursive;
   color: black;
-  background-color: #9966cc;
+  background-color: #d2a5ff;
   margin: 1em;
   font-weight: 700;
   font-size: 1.3em;
